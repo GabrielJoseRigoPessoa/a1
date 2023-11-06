@@ -14,7 +14,6 @@ display: block;
 font-size: 20px;
 margin-bottom: 10px;
 }
-
 .input-padrao {
 display: block;
 margin-bottom: 20px;
@@ -41,10 +40,15 @@ width: 40%;
 padding: 15px 0;
 background-color: azure;
 color: rgb(238, 250, 215);
-font-weight: bolder;
+font-weight: bold;
 font-size: 18px;
 border: 1px solid transparent;
 border-radius: 10px;
 cursor: pointer;
 font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.enviard.hover {
+transition: 0.5s;
+background-color:gray;
+transform: scale(1.1);
 }
