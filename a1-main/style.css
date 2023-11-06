@@ -1,0 +1,112 @@
+*{
+ padding: 0px;
+ margin: 0px;
+
+}
+
+/*header*/
+header{
+ background :linear-gradient(#f0f0f0,#420505); 
+padding-top: 15px;
+}
+
+.cabecalho{
+ position: relative;
+width: 940px;
+margin: 0 auto;
+}
+
+.titulo-prinsipal{
+ color:brown;
+  text-align: center;
+ font-size: 32px;
+ text-transform: uppercase;
+}
+#logo:hover{
+ transition : 1s;
+ transform : scale (1.1);
+}
+ nav{
+
+position: absolute;
+top: 100px;
+right: 0;
+ }
+
+nav li{
+ display: inline;
+ margin-left: 15px;
+}
+
+nav a:hover{
+transition: 0.2s;
+color: #031266;
+text-decoration: underline;
+}
+
+nav a{
+    text-transform: uppercase;
+color: rgb(97, 5, 5);
+font-size: 30px;
+font-weight: bold;
+text-decoration: none;
+}
+
+nav a{
+    text-transform: uppercase;
+color: rgb(97, 5, 5);
+font-size: 30px;
+text-decoration: none;
+}
+
+/*fim do header*/
+
+
+body{
+    background-color:whitesmoke; 
+
+}
+
+
+
+p{
+    margin-left: 5px;
+  font-size: 25px;
+ text-align: justify;
+}
+
+h2,h3{
+    text-align: center ;
+   font-size: 30px;
+    text-transform: uppercase;
+}
+ iframe{
+   margin-left: 500px;
+}
+ li{
+  margin-left: 40px;
+  text-transform: uppercase;
+ font-size: 25px;
+ }
+ 
+footer{
+ text-align: center;
+ background-image: url(bg.jpg);
+ padding: 15px 0px;
+ }
+ .redes a{
+margin: 0 10px;
+text-decoration: none;
+ }
+
+ .redes img:hover{
+ transition: 0.5s;
+ transform: scale(1.1);
+ opacity: 60%;
+ }
+
+.copyright{
+ font-size: 13px;
+color: white;
+margin-top: 15px;
+}
